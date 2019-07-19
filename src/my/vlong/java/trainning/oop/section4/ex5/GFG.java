@@ -21,7 +21,6 @@ public class GFG {
 
         List<Book> bks = library.getTotalBooksInLibrary();
         for (Book bk : bks) {
-
             System.out.println("Title : " + bk.getTitle() + " and "
                     + " Author : " + bk.getAuthor());
         }
